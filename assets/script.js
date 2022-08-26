@@ -20,7 +20,7 @@ function generatePassword() {
 
   console.log("btn was clicked")
   let passwdLength = window.prompt("How long would you like your password to be? It must be 8 to 128 Characters");
-  if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength)) || passwdLength.includes('.')) || passwdLength === null {
+  if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength)) || passwdLength.includes('.')) {
     alert("Please enter a integer between 8 and 128.");
 
   } else {
