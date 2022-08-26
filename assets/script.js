@@ -22,33 +22,29 @@ function generatePassword() {
   let passwdLength = window.prompt("How long would you like your password to be? It must be 8 to 128 Characters");
   if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength))) {
     alert("Please enter a number between 8 and 128.") ;
-
+    generatePassword();
   } else {
     let lowerCaseLetters = window.confirm("Would you like to use lowercase characters?");
     if (lowerCaseLetters == true) {
       allChar += lowerCase
-    };
+    }
     let upperCaseLetters = window.confirm("Would you like to use uppercase characters?");
     if (upperCaseLetters == true) {
       allChar += upperCase
-    };
+    }
     let specialCaseLetters = window.confirm("Would you like to use special characters?");
     if (specialCaseLetters == true) {
       allChar += specialCase
-    };
+    }
     let alsonumbers = confirm("Would you like to use numbers?");
     if (alsonumbers == true) {
       allChar += numbers
-    };
+    }
 
-    console.log("promptworked")
-    if (
-      lowerCaseLetters === false &&
-      upperCaseLetters === false &&
-      specialCaseLetters === false &&
-      numbers === false
-    ) {
-      alert("To randomly generate a password you need at least one type of character :), Please select at least one type.");
+    else {
+      alert(
+        "To randomly generate a password you need at least one type of character :), Please select at least one type."
+      );
       generatePassword();
     }
   }
