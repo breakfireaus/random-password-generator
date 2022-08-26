@@ -33,7 +33,7 @@ function generatePassword() {
     if (specialCaseLetters) {
       allChar += specialCase
     };
-    let numbers = confirm("Would you like to use numbers");
+    let numbers = confirm("Would you like to use numbers?");
     if (numbers) {
       allChar += numbers
     };
