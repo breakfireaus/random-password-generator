@@ -20,9 +20,9 @@ function generatePassword() {
 
   console.log("btn was clicked")
   let passwdLength = window.prompt("How long would you like your password to be? It must be 8 to 128 Characters");
-  if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength))) {
-    alert("Please enter a number between 8 and 128.") ;
-    generatePassword();
+  if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength)) || passwdLength.includes('.')) || passwdLength === null {
+    alert("Please enter a integer between 8 and 128.");
+
   } else {
     let lowerCaseLetters = window.confirm("Would you like to use lowercase characters?");
     if (lowerCaseLetters == true) {
@@ -36,16 +36,16 @@ function generatePassword() {
     if (specialCaseLetters == true) {
       allChar += specialCase
     }
-    let alsonumbers = confirm("Would you like to use numbers?");
+    let alsonumbers = window.confirm("Would you like to use numbers?");
     if (alsonumbers == true) {
       allChar += numbers
     }
 
-    else {
+    if (!lowerCaseLetters && !upperCaseLetters && !specialCaseLetters && !alsonumbers) {
       alert(
         "To randomly generate a password you need at least one type of character :), Please select at least one type."
       );
-      generatePassword();
+
     }
   }
 
@@ -63,7 +63,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-  alert("Password is ready and will display below. Have a nice day :)")
+
 
 }
 

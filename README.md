@@ -36,6 +36,7 @@ To access and use this project you may click on this link to access it
 
 - Askbcs team at the bootcamp
 - My Instructor Chee
+- Prince
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
@@ -48,6 +49,7 @@ To access and use this project you may click on this link to access it
 - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
 
 
 ## License
