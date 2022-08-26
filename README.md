@@ -21,25 +21,34 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 To access and use this project you may click on this link to access it
 
+- https://breakfireaus.github.io/random-password-generator/
+
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use the program you need to click on the generate password button which is Red. Then follow the prompts and it will automatically generate a password
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Main Page](assets/Screenshot-1.jpg)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+- Askbcs team at the bootcamp
+- My Instructor Chee
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+- https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+- https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
