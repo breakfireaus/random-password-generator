@@ -27,7 +27,7 @@ To access and use this project you may click on this link to access it
 
 ## Usage
 
-To use the program you need to click on the generate password button which is Red. Then follow the prompts and it will automatically generate a password
+- To use the program you need to click on the generate password button which is Red. Then follow the prompts and confirmation prompts so the program can  and it will automatically generate a password
 
 ![Main Page](assets/Screenshot-1.jpg)
 
