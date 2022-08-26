@@ -21,7 +21,7 @@ function generatePassword() {
   console.log("btn was clicked")
   let passwdLength = window.prompt("How long would you like your password to be? It must be 8 to 128 Characters");
   if (passwdLength < 8 || passwdLength > 128 || isNaN(parseInt(passwdLength))) {
-    alert("Please enter a number between 8 and 128.");
+    alert("Please enter a number between 8 and 128.") ;
 
   } else {
     let lowerCaseLetters = window.confirm("Would you like to use lowercase characters?");
@@ -67,9 +67,10 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-  alert("Password ready below. Have a nice day :)")
+  alert("Password is ready and will display below. Have a nice day :)")
 
 }
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
